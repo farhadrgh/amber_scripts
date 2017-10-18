@@ -1,0 +1,4 @@
+parm initial.prmtop
+loadRestrt initial.rst7
+setMolecules solute_ions True
+outparm reordered.prmtop reordered.rst7
