@@ -1,0 +1,4 @@
+parm outoforder.parm7
+trajin outoforder.rst7
+fixatomorder outprefix reorder
+trajout reorder.rst7 restart
