@@ -1,0 +1,17 @@
+source oldff/leaprc.ff14SB
+x = sequence {ACE ALA ALA ALA ALA ALA ALA ALA ALA ALA ALA NME}
+impose x {1} {{"C" "N" "CA" "C" -77} {"N" "CA" "C" "N" 129}}
+impose x {2} {{"C" "N" "CA" "C" -128} {"N" "CA" "C" "N" 127}}
+impose x {3} {{"C" "N" "CA" "C" -83} {"N" "CA" "C" "N" 147}}
+impose x {4} {{"C" "N" "CA" "C" -141} {"N" "CA" "C" "N" 129}}
+impose x {5} {{"C" "N" "CA" "C" 30} {"N" "CA" "C" "N" 122}}
+impose x {6} {{"C" "N" "CA" "C" 81} {"N" "CA" "C" "N" 70}}
+impose x {7} {{"C" "N" "CA" "C" -138} {"N" "CA" "C" "N" -2.5}}
+impose x {8} {{"C" "N" "CA" "C" -101} {"N" "CA" "C" "N" 169}}
+impose x {9} {{"C" "N" "CA" "C" -123} {"N" "CA" "C" "N" 135}}
+impose x {10} {{"C" "N" "CA" "C" -85} {"N" "CA" "C" "N" 146}}
+impose x {11} {{"C" "N" "CA" "C" -99} {"N" "CA" "C" "N" 100}}
+impose x {12} {{"C" "N" "CA" "C" -99} {"N" "CA" "C" "N" 0}}
+saveamberparm x beta.prmtop beta.inpcrd
+savepdb x beta.pdb
+quit
