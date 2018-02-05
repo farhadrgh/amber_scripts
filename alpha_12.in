@@ -1,0 +1,6 @@
+source oldff/leaprc.ff14SB
+x = sequence {ACE ALA ALA ALA ALA ALA ALA ALA ALA ALA ALA NME}
+impose x {1 2 3 4 5 6 7 8 9 10 11 12} {{"C" "N" "CA" "C" -60} {"N" "CA" "C" "N" -40}}
+saveamberparm x alpha.prmtop alpha.inpcrd
+savepdb x alpha.pdb
+quit
